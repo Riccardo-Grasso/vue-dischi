@@ -1,9 +1,9 @@
 <template>
-  <div class="main">
+  <main class="main">
     <div class="container">
       <AlbumsContainer></AlbumsContainer>
     </div>
-  </div>
+  </main>
 </template>
 
 <script>
