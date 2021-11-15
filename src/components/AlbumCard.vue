@@ -12,6 +12,12 @@
 <script>
 export default {
   name: "AlbumCard",
-  props: ["poster", "title", "author", "year"],
+  props: {
+    poster: String,
+    title: String,
+    author: String,
+    genre: String,
+    year: String,
+  },
 };
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="row row-cols-1 g-4">
+  <div class="row row-cols-5 g-4">
     <div class="col" v-for="album in albumList" :key="album.id">
       <AlbumCard
         :poster="album.poster"
@@ -28,7 +28,8 @@ export default {
     axios
       .get("https://flynn.boolean.careers/exercises/api/array/music")
       .then((resp) => {
-        this.albumList = resp.data;
+        console.log(resp.data.response);
+        this.albumList = resp.data.response;
       });
   },
 };

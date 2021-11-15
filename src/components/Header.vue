@@ -1,5 +1,5 @@
 <template>
-  <div class="nav-container">
+  <div class="navbar d-flex align-items-center">
     <img src="../assets/spotify-logo-png-7053.png" alt="logo" />
   </div>
 </template>

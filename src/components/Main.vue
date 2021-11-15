@@ -7,10 +7,11 @@
 </template>
 
 <script>
-import "@/components/AlbumsContainer.vue";
+import AlbumsContainer from "@/components/AlbumsContainer.vue";
 
 export default {
   name: "Main",
+  components: { AlbumsContainer },
 };
 </script>
 
