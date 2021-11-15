@@ -1,0 +1,13 @@
+@import "variables.scss";
+
+.nav-container {
+    height: 100px;
+    background-color: $bg-color-light;
+    padding: 0 $nav-lat-padding;
+    display: flex;
+    align-items: center;
+
+    img {
+        height: 80px;
+    }
+}
