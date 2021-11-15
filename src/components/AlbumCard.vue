@@ -1,10 +1,10 @@
 <template>
   <div class="card">
-    <img src="poster" class="card-img-top" alt="image" />
+    <img :src="poster" class="card-img-top" alt="image" />
     <div class="card-body">
-      <h2 class="card-title">{{ title }}</h2>
-      <div class="card-text">{{ author }}</div>
-      <div class="card-text">{{ year }}</div>
+      <h3 class="card-title text-center">{{ title.toUpperCase() }}</h3>
+      <div class="card-text text-center">{{ author }}</div>
+      <div class="card-text text-center">{{ year }}</div>
     </div>
   </div>
 </template>
@@ -21,3 +21,7 @@ export default {
   },
 };
 </script>
+
+<style lang="sass">
+@import "@/styles/albumcard.scss"
+</style>

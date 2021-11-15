@@ -1,5 +1,5 @@
 <template>
-  <div class="row row-cols-5 g-4">
+  <div class="row row-cols-5 g-4 pt-5">
     <div class="col" v-for="album in albumList" :key="album.id">
       <AlbumCard
         :poster="album.poster"
@@ -34,3 +34,7 @@ export default {
   },
 };
 </script>
+
+<style lang="sass">
+@import "@/styles/albumcontainer"
+</style>
