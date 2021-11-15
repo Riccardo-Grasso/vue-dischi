@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card align-items-center">
     <img :src="poster" class="card-img-top" alt="image" />
     <div class="card-body">
       <h3 class="card-title text-center">{{ title.toUpperCase() }}</h3>
