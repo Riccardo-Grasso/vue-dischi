@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="pt-5">
+    <SearchBar></SearchBar>
     <div class="row row-cols-5 gy-4 gx-5 pt-5">
       <div class="col" v-for="album in albumList" :key="album.id">
         <AlbumCard
@@ -19,10 +20,11 @@
 import axios from "axios";
 import AlbumCard from "@/components/AlbumCard.vue";
 import Loader from "@/components/Loader.vue";
+import SearchBar from "@/components/SearchBar.vue";
 
 export default {
   name: "AlbumsContainer",
-  components: { AlbumCard, Loader },
+  components: { AlbumCard, Loader, SearchBar },
   data() {
     return {
       albumList: [],
