@@ -1,6 +1,6 @@
 <template>
   <main class="main">
-    <div class="container">
+    <div class="container pb-5">
       <AlbumsContainer></AlbumsContainer>
     </div>
   </main>
