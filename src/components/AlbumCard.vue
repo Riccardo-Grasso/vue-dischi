@@ -2,7 +2,7 @@
   <div class="card align-items-center">
     <img :src="poster" class="card-img-top" alt="image" />
     <div class="card-body">
-      <h3 class="card-title text-center mb-3">{{ title.toUpperCase() }}</h3>
+      <h4 class="card-title text-center mb-3">{{ title.toUpperCase() }}</h4>
       <div class="card-text text-center fs-5">{{ author }}</div>
       <div class="card-text text-center fs-6">{{ year }}</div>
     </div>

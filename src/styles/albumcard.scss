@@ -8,11 +8,16 @@
         width: 80%;
         margin-top: 10%;
     }
+    .card-body {
+        width: 100%;
 
-    .card-title {
+        .card-title {
         color: white;
+        }
+        
+        .card-text {
+            color: lightgray;
+        }
     }
-    .card-text {
-        color: lightgray;
-    }
+    
 }
